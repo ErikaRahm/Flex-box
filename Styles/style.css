@@ -4,7 +4,9 @@
     flex-wrap: wrap;
     justify-content:center;
     align-items: center;      
-    background: #370617;  
+    background: #370617;
+    border-radius: 0px;
+    
 }
 
 .box-one {
@@ -64,7 +66,7 @@
     margin-top: 20px; 
     margin-left: 20px;  
     display:inline-flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items:center;
     background-color: #F48C06;
     border-radius: 5px; 
@@ -77,7 +79,7 @@
     width: 78px;
     left: 272px;
     top: 311px;
-    border-radius: 5px;    
+    border-radius: 8px;    
 }
 
 .box-four {
@@ -164,19 +166,27 @@
     top: 493px;
 }
 
-.some-text {
-    width: 54px;
-    height: 14px;
-    left: 437px;
-    top: 504px;   
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    /* identical to box height */    
-    color: #FFFFFF;    
-}
+.box-5-some-text {
+    color: #ffffff;
+    text-align: left;
+    font: 400 12px "Roboto";
+    left: 425px;
+    top: 470px;  
+  }
+  .box-5-some-text2 {
+    color: #ffffff;
+    text-align: left;
+    font: 400 12px "Roboto";
+    left: 293px;
+    top: 493px;
+  }
+  .box-5-some-text3 {
+    color: #ffffff;
+    text-align: left;
+    font: 400 12px "Roboto";
+    left: 425px;
+    top: 470px;  
+  }
 
 .square6 {
     height: 160px;
